@@ -38,9 +38,9 @@ public class Main {
 //            Program powinien pobrać trzy liczby całkowite (współczynniki równania kwadratowego a, b, c) i wyliczyć pierwiastki x1, x2 równania ax^2 + bx + c = 0
 //        Jeśli delta ∆ wyjdzie ujemna, wypisz „Delta ujemna” i  zakończ program.
 //        Potrzebne wzory:
-//        delta = b^2 - 4ac
-//            x1 = = -b - pierwiastek z delty/2a
-//            x2 = -b + pierwiastek z delty/2a
+//        ∆ = b^2 - 4ac
+//            x1 = = -b - pierwiastek ∆/2a
+//            x2 = -b + pierwiastek ∆/2a
 
 
 
