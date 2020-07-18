@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    // Napisz program, który pobierze od użytkownika średnicę okręgu (zmienną typu float) i obliczy obwód tego okręgu.
+        // Napisz program, który pobierze od użytkownika średnicę okręgu (zmienną typu float) i obliczy obwód tego okręgu.
         // Do obliczeń przyjmij najpierw pi = 3.14, a następnie skorzystaj z wbudowanej klasy Math i znajdującej się tam
         //stałej pi
 
@@ -84,7 +84,22 @@ public class Main {
 //        Napisz  program,  który  pobierze  od  użytkownika  liczbę  dodatnią  (typu  int)  i  wypisze wszystkie liczby pierwsze,
 //                większe od 1 i mniejsze od podanej liczby
 
+        System.out.println("Podaj liczbę dodatnią: ");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        for (int i = 2; i < number; i++) {
+            if (isPrimeNumber(i)) {
+                System.out.println(i);
+            }
+        }
+    }
 
-
+    public static boolean isPrimeNumber(int number) {
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
