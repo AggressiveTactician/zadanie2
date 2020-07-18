@@ -42,21 +42,30 @@ public class Main {
 //            x1 = -b - pierwiastek ∆/2a
 //            x2 = -b + pierwiastek ∆/2a
 
-        System.out.println("Podaj trzy liczby całkowite: ");
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        Scanner scanner1 = new Scanner(System.in);
-        int b = scanner1.nextInt();
-        Scanner scanner2 = new Scanner(System.in);
-        int c = scanner2.nextInt();
+//        System.out.println("Podaj trzy liczby całkowite: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int a = scanner.nextInt();
+//        Scanner scanner1 = new Scanner(System.in);
+//        int b = scanner1.nextInt();
+//        Scanner scanner2 = new Scanner(System.in);
+//        int c = scanner2.nextInt();
+//
+//        int delta = (b*b) - 4*a*c;
+//        if (delta < 0) {
+//            System.out.println("∆ jest ujemna");
+//            return;
+//        }
+//        double x1 = (-b - Math.sqrt(delta)) / 2*a;
+//        double x2 = (-b + Math.sqrt(delta)) / 2*a;
+//        System.out.println("x1 = " + x1 + "x2 = " + x2);
+//    =======================================================================================================================
+//        Napisz  program,  który  pobierze  od  użytkownika  dodatnią  liczbę  (typu int)  i  wypisze wszystkie  liczby  od  1  do  podanej  liczby,
+//        każda  w  kolejnej  linijce,  z  następującymi zmianami:
+//        ● w miejscu liczb podzielnych przez 3, zamiast liczby program powinien wypisać „Pif”
+//        ● w miejscu liczb podzielnych przez 7, zamiast liczby program powinien wypisać „Paf”
+//        ● jeśli liczba jest podzielna zarówno przez 3, jak i 7, program powinien wypisać „Pif paf”
 
-        int delta = (b*b) - 4*a*c;
-        if (delta < 0) {
-            System.out.println("∆ jest ujemna");
-            return;
-        }
-        double x1 = (-b - Math.sqrt(delta)) / 2*a;
-        double x2 = (-b + Math.sqrt(delta)) / 2*a;
-        System.out.println("x1 = " + x1 + "x2 = " + x2);
+
+
     }
 }
