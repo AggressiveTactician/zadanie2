@@ -44,13 +44,16 @@ public class Main {
 
         System.out.println("Podaj trzy liczby całkowite: ");
         Scanner scanner = new Scanner(System.in);
-        int liczba = scanner.nextInt();
+        int a = scanner.nextInt();
         Scanner scanner1 = new Scanner(System.in);
-        int liczba1 = scanner1.nextInt();
+        int b = scanner1.nextInt();
         Scanner scanner2 = new Scanner(System.in);
-        int liczba2 = scanner2.nextInt();
+        int c = scanner2.nextInt();
 
-
+        int delta = (b*b) - 4*a*c;
+        if (delta <= 0) {
+            System.out.println("∆ jest ujemna");
+        }
 
     }
 }
