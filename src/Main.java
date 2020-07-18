@@ -39,7 +39,7 @@ public class Main {
 //        Jeśli delta ∆ wyjdzie ujemna, wypisz „Delta ujemna” i  zakończ program.
 //        Potrzebne wzory:
 //        ∆ = b^2 - 4ac
-//            x1 = = -b - pierwiastek ∆/2a
+//            x1 = -b - pierwiastek ∆/2a
 //            x2 = -b + pierwiastek ∆/2a
 
 
