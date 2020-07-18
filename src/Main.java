@@ -35,12 +35,20 @@ public class Main {
 //        }
 //        ============================================================================================================================
 //        Napisz  program  służący  do  rozwiązywania  równania  kwadratowego.
-//            Program powinien pobrać trzy liczby całkowite (współczynniki równania kwadratowego a, b, c) i wyliczyć pierwiastki x1, x2 równania ax^2 + bx + c = 0
+//        Program powinien pobrać trzy liczby całkowite (współczynniki równania kwadratowego a, b, c) i wyliczyć pierwiastki x1, x2 równania ax^2 + bx + c = 0
 //        Jeśli delta ∆ wyjdzie ujemna, wypisz „Delta ujemna” i  zakończ program.
 //        Potrzebne wzory:
 //        ∆ = b^2 - 4ac
 //            x1 = -b - pierwiastek ∆/2a
 //            x2 = -b + pierwiastek ∆/2a
+
+        System.out.println("Podaj trzy liczby całkowite: ");
+        Scanner scanner = new Scanner(System.in);
+        int liczba = scanner.nextInt();
+        Scanner scanner1 = new Scanner(System.in);
+        int liczba1 = scanner1.nextInt();
+        Scanner scanner2 = new Scanner(System.in);
+        int liczba2 = scanner2.nextInt();
 
 
 
