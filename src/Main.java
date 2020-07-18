@@ -65,19 +65,26 @@ public class Main {
 //        ● w miejscu liczb podzielnych przez 7, zamiast liczby program powinien wypisać „Paf”
 //        ● jeśli liczba jest podzielna zarówno przez 3, jak i 7, program powinien wypisać „Pif, paf”
 
-        System.out.println("Podaj dodatnią liczbę całkowitą: ");
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        for (int i = 1; i <= number; i++) {
-            if (i % 3 == 0 && i % 7 == 0) {
-                System.out.println("Pif");
-            } else if (i % 7 == 0) {
-                System.out.println("Paf");
-            } else if (i % 3 == 0) {
-                System.out.println("Pif, paf");
-            } else {
-                System.out.println(i);
-            }
-        }
+//        System.out.println("Podaj dodatnią liczbę całkowitą: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        for (int i = 1; i <= number; i++) {
+//            if (i % 3 == 0 && i % 7 == 0) {
+//                System.out.println("Pif");
+//            } else if (i % 7 == 0) {
+//                System.out.println("Paf");
+//            } else if (i % 3 == 0) {
+//                System.out.println("Pif, paf");
+//            } else {
+//                System.out.println(i);
+//            }
+//        }
+//        =================================================================================================================
+
+//        Napisz  program,  który  pobierze  od  użytkownika  liczbę  dodatnią  (typu  int)  i  wypisze wszystkie liczby pierwsze,
+//                większe od 1 i mniejsze od podanej liczby
+
+
+
     }
 }
