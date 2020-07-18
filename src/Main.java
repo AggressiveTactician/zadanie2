@@ -25,6 +25,13 @@ public class Main {
         System.out.println("Podaj wagę: ");
         float waga = scanner.nextFloat();
         System.out.println("Podaj wzrost: ");
-
+        float wzrost = scanner.nextInt()/100;
+        float BMI = waga/(wzrost*wzrost);
+        System.out.println("BMI wynosi: " + BMI);
+        if (BMI < 18.5 || BMI > 24.9) {
+            System.out.println("BMI nieoptymalne");
+        } else {
+            System.out.println("BMI optymalne");
+        }
     }
 }
