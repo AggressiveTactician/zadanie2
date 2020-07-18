@@ -51,7 +51,7 @@ public class Main {
         int c = scanner2.nextInt();
 
         int delta = (b*b) - 4*a*c;
-        if (delta <= 0) {
+        if (delta < 0) {
             System.out.println("∆ jest ujemna");
         }
 
